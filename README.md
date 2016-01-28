@@ -29,7 +29,8 @@ pip install -e git+git@github.com:thefactory/marathon-python.git#egg=marathon
 #### From source
 ```bash
 git clone git@github.com:thefactory/marathon-python
-python marathon-python/setup.py install
+cd marathon-python
+python ./setup.py install
 ```
 
 ## Testing
